@@ -9,7 +9,11 @@ environment:
 dependencies:
   bs58: ^1.0.2
   convert: ^3.0.1
-  cryptography: ^2.0.5
+  cryptography:
+    git:
+      url: https://github.com/elios-cama/cryptography_upgrade_js.git
+      ref: master
+      path: cryptography
   ed25519_edwards: ^0.3.1
   event: ^2.1.2
   flutter:
